@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        body{
+            background-color: black;
+        }
+        #container{
+            background-color:rgb(72, 72, 175);
+            margin-left :15%;
+            margin-right :15%;
+            height: 680px;
+            /* margin-top: 0px; */
+            border: 2px solid green;
+        }
+        #contChild{
+            margin: 20px auto;
+            background-color: aliceblue;
+            width: 400px;
+            height:640px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border: 2px solid red;
+            border-radius: 15px;
+        }
+        h1{
+            margin: 60px;  
+        }
+        input, button,p{
+            margin:10px 30px;
+        }
+        input,button{
+            height: 40px;
+            border-radius: 15px;
+        }
+        button{
+            background-color: blue;
+            color: aliceblue;
+            
+        }
+    </Style>
+</head>
+<body>
+    <div id="container">
+        <div id="contChild">
+            <h1>Login</h1>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button>Login</button>
+            <p>Forgot <a href="">Password</a></p>
+            <p>Don't have an account? <a href="">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>
